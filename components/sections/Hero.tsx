@@ -73,7 +73,7 @@ export function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight"> <span className="text-foreground"> Hi, I&apos;m{" "} </span> <span className="bg-gradient-to-r from-violet-400 via-purple-400 to-fuchsia-500 bg-clip-text text-transparent"> Divya Gandham </span> </h1>
 
           <p className="text-xl md:text-2xl font-semibold text-muted-foreground">
-            Full Stack Developer • React Native Developer
+            Full Stack Developer • Mobile Application Developer
           </p>
         </div>
 
