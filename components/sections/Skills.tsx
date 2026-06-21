@@ -35,11 +35,8 @@ const SkillItem: React.FC<SkillItemProps> = ({ skill }) => {
           group-hover:scale-110
           transition-transform duration-300
         "
-        style={{
-          color:
-            theme === "dark"
-              ? skill.dark_color || skill.color
-              : skill.light_color || skill.color,
+         style={{
+          color: skill.color,
         }}
       />
 

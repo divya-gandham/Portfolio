@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,11 +19,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-import { ThemeProvider } from "@/components/theme-provider";
-
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Personal portfolio website",
+  title: "Divya Gandham | React Native Developer",
+  description:
+    "Portfolio of Divya Gandham - Full Stack Developer and React Native Developer.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
