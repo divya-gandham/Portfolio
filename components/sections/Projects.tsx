@@ -36,14 +36,14 @@ export function Projects() {
                   overflow-hidden
                   rounded-[28px]
                   border
-                  border-white/10
-                  bg-card/40
-                  backdrop-blur-xl
+                  border-border
+                  bg-card
+                  shadow-sm
                   transition-all duration-500
-                  hover:border-fuchsia-500/20
+                  hover:border-primary/30
                   hover:-translate-y-2
                   hover:shadow-[0_0_30px_rgba(217,70,239,0.12)]
-                "
+"
             >
 
               {/* Image */}

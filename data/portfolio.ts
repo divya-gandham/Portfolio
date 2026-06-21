@@ -97,7 +97,7 @@ export const projectsData = [
   achievements: [
     "2M+ Users",
     "$50M+ Transactions",
-    "5 Markets",
+    "7 Markets",
     "Performance",
     "Reusable UI",
     "Scalable Architecture"

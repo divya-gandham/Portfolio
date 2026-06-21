@@ -164,7 +164,7 @@ export function About() {
     "
             >
               <h3 className="text-4xl font-bold text-primary">
-                5
+                7
               </h3>
 
               <p className="mt-2 text-muted-foreground">
