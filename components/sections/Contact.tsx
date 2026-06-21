@@ -97,7 +97,7 @@ export function Contact() {
         {/* Resume */}
 <div className="mt-10">
   <Link
-    href="/resume.pdf"
+    href="/Divya_Gandham_resume.pdf"
     target="_blank"
     className="
       inline-flex items-center gap-3
