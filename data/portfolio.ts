@@ -103,6 +103,56 @@ export const projectsData = [
     "Scalable Architecture"
   ]
 },
+{
+  title: "ZipEats",
+
+  description:
+    "Cross-platform food delivery application enabling users to browse restaurants, place orders, and track deliveries with a seamless mobile experience.",
+
+  image: "/zipEats.png",
+
+  video: "/zipeats.mp4",
+
+  liveUrl: "",
+
+  skills: [
+    "React Native",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
+    "REST APIs",
+    "Redux",
+    "Firebase"
+  ],
+
+  overview: [
+    "Developed a full-stack food delivery application using React Native, Node.js, Express.js, and MongoDB.",
+    "Built user-friendly interfaces for browsing restaurants, viewing menus, and placing orders.",
+    "Designed RESTful APIs and integrated MongoDB for managing users, restaurants, orders, and delivery information.",
+    "Optimized performance and ensured a smooth cross-platform experience for Android and iOS devices."
+  ],
+
+  features: [
+    "Restaurants",
+    "Menus",
+    "Cart",
+    "Orders",
+    "Authentication",
+    "Payments",
+    "Tracking",
+    "Notifications"
+  ],
+
+  achievements: [
+    "Cross Platform",
+    "Full Stack",
+    "REST APIs",
+    "MongoDB",
+    "Responsive UI",
+    "Scalable Design"
+  ]
+},
   {
   title: "JobSphere",
 
@@ -326,47 +376,5 @@ skills: [
     "Responsive Design",
     "Async Operations"
   ]
-},
-{
-  title: "Todo Application",
-  description:
-    "Task management application with persistent CRUD functionality and local storage support.",
-
-  image: "/todo.png",
-
-  liveUrl: "https://divyaatodo.ccbp.tech/",
-
-  skills: [
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "Bootstrap",
-  "DOM Manipulation",
-  "Local Storage",
-  "CRUD Operations",
-  "Responsive Design"
-],
-
-  overview: [
-    "Developed a task management application with CRUD operations.",
-    "Implemented dynamic updates using JavaScript DOM manipulation.",
-    "Managed data using arrays and objects effectively.",
-    "Persisted tasks using browser local storage."
-  ],
-
-  features: [
-    "CRUD",
-    "Local Storage",
-    "DOM Updates",
-    "Task Tracking",
-    "Responsive UI"
-  ],
-
-  achievements: [
-    "Dynamic UI",
-    "DOM Manipulation",
-    "Data Persistence",
-    "JavaScript Logic"
-  ]
-},
+}
 ];

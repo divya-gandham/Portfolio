@@ -61,20 +61,36 @@ export function ProjectModal({
             {/* Left */}
             <div>
 
-              {/* Image */}
               <div className="flex justify-center">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  width={project.isMobileApp ? 170 : 600}
-                  height={project.isMobileApp ? 170 : 400}
-                  className="
-                  rounded-[32px]
-                  border border-white/10
-                  shadow-[0_0_30px_rgba(139,92,246,.2)]
-                "
-              />
-            </div>
+  {project.video ? (
+    <video
+  controls
+  preload="metadata"
+  playsInline
+  width={170}
+      height={170}
+  className="
+    rounded-[32px]
+    border border-white/10
+    shadow-[0_0_30px_rgba(139,92,246,.2)]
+  "
+>
+  <source src={project.video} type="video/mp4" />
+</video>
+  ) : (
+    <Image
+      src={project.image}
+      alt={project.title}
+      width={project.isMobileApp ? 170 : 600}
+      height={project.isMobileApp ? 170 : 400}
+      className="
+        rounded-[32px]
+        border border-white/10
+        shadow-[0_0_30px_rgba(139,92,246,.2)]
+      "
+    />
+  )}
+</div>
 
               {/* Skills */}
               <div className="mt-8">
